@@ -13,6 +13,7 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setLayout(new FlowLayout());
 
         button = new JButton("Pick a color");
+        button.addActionListener(this);
 
         label = new JLabel("");
         label.setBackground(Color.WHITE);
