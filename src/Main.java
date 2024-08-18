@@ -3,6 +3,8 @@
 public class Main {
     public static void main(String[] args) {
 
+        new MyFrame();
+
         //JColorChooser   =    A GUI mechanism that lets a user choose a color
 
     }
