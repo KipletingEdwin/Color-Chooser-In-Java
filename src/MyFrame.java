@@ -21,7 +21,8 @@ public class MyFrame extends JFrame implements ActionListener {
         label.setFont(new Font("MV Boli",Font.PLAIN,100));
         label.setOpaque(true);
 
-
+         this.add(button);
+         this.add(label);
         this.pack();
         this.setVisible(true);
     }
