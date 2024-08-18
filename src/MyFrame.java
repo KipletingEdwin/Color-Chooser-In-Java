@@ -11,6 +11,11 @@ public class MyFrame extends JFrame implements ActionListener {
     MyFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
+
+        button = new JButton("Pick a color");
+
+        label = new JLabel("");
+        label.setBackground(Color.WHITE);
         this.pack();
         this.setVisible(true);
     }
