@@ -16,6 +16,7 @@ public class MyFrame extends JFrame implements ActionListener {
 
         label = new JLabel("");
         label.setBackground(Color.WHITE);
+        label.setText("This is some text");
         label.setOpaque(true);
 
 
