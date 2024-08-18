@@ -5,6 +5,9 @@ import java.awt.event.ActionListener;
 
 public class MyFrame extends JFrame implements ActionListener {
 
+    JButton button;
+    JLabel label;
+
     MyFrame(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
