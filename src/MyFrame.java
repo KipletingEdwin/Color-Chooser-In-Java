@@ -32,6 +32,9 @@ public class MyFrame extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        if(e.getSource()==button){
+            JColorChooser colorChooser = new JColorChooser();
+        }
 
     }
 }
