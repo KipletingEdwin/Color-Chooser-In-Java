@@ -34,6 +34,8 @@ public class MyFrame extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==button){
             JColorChooser colorChooser = new JColorChooser();
+
+            Color color = JColorChooser.showDialog(null,"pick a color",Color.black);
         }
 
     }
