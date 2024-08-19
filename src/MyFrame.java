@@ -36,7 +36,9 @@ public class MyFrame extends JFrame implements ActionListener {
             JColorChooser colorChooser = new JColorChooser();
 
             Color color = JColorChooser.showDialog(null,"pick a color",Color.black);
-            label.setForeground(color);
+//            label.setForeground(color);
+
+            label.setBackground(color);
         }
 
     }
